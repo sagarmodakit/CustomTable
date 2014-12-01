@@ -21,6 +21,13 @@
 		D9F226FC1A15C11E007D047A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9F226DE1A15C11E007D047A /* UIKit.framework */; };
 		D9F227041A15C11E007D047A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9F227021A15C11E007D047A /* InfoPlist.strings */; };
 		D9F227061A15C11E007D047A /* CustomTableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F227051A15C11E007D047A /* CustomTableTests.m */; };
+		D9F227121A15C1E4007D047A /* FirstTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F227111A15C1E4007D047A /* FirstTableViewController.m */; };
+		D9F227141A15C26B007D047A /* MyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9F227131A15C26B007D047A /* MyCell.xib */; };
+		D9F227171A15C283007D047A /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F227161A15C283007D047A /* MyCell.m */; };
+		D9F2271A1A15C3E7007D047A /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9F227181A15C3E7007D047A /* 1.jpg */; };
+		D9F2271B1A15C3E7007D047A /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9F227191A15C3E7007D047A /* 2.jpg */; };
+		D9F2271F1A15CB8C007D047A /* rushiImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9F2271D1A15CB8C007D047A /* rushiImage.jpg */; };
+		D9F227201A15CB8C007D047A /* sagarImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9F2271E1A15CB8C007D047A /* sagarImage.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,15 @@
 		D9F227011A15C11E007D047A /* CustomTableTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomTableTests-Info.plist"; sourceTree = "<group>"; };
 		D9F227031A15C11E007D047A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D9F227051A15C11E007D047A /* CustomTableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTableTests.m; sourceTree = "<group>"; };
+		D9F227101A15C1E4007D047A /* FirstTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTableViewController.h; sourceTree = "<group>"; };
+		D9F227111A15C1E4007D047A /* FirstTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewController.m; sourceTree = "<group>"; };
+		D9F227131A15C26B007D047A /* MyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCell.xib; sourceTree = "<group>"; };
+		D9F227151A15C283007D047A /* MyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
+		D9F227161A15C283007D047A /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
+		D9F227181A15C3E7007D047A /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		D9F227191A15C3E7007D047A /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		D9F2271D1A15CB8C007D047A /* rushiImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rushiImage.jpg; sourceTree = "<group>"; };
+		D9F2271E1A15CB8C007D047A /* sagarImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sagarImage.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +133,12 @@
 				D9F226EC1A15C11E007D047A /* Main.storyboard */,
 				D9F226EF1A15C11E007D047A /* ViewController.h */,
 				D9F226F01A15C11E007D047A /* ViewController.m */,
+				D9F227101A15C1E4007D047A /* FirstTableViewController.h */,
+				D9F227111A15C1E4007D047A /* FirstTableViewController.m */,
+				D9F227131A15C26B007D047A /* MyCell.xib */,
+				D9F227151A15C283007D047A /* MyCell.h */,
+				D9F227161A15C283007D047A /* MyCell.m */,
+				D9F2271C1A15C3EB007D047A /* images */,
 				D9F226F21A15C11E007D047A /* Images.xcassets */,
 				D9F226E11A15C11E007D047A /* Supporting Files */,
 			);
@@ -150,6 +172,17 @@
 				D9F227021A15C11E007D047A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9F2271C1A15C3EB007D047A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D9F227181A15C3E7007D047A /* 1.jpg */,
+				D9F227191A15C3E7007D047A /* 2.jpg */,
+				D9F2271D1A15CB8C007D047A /* rushiImage.jpg */,
+				D9F2271E1A15CB8C007D047A /* sagarImage.jpg */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +261,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9F2271B1A15C3E7007D047A /* 2.jpg in Resources */,
+				D9F2271F1A15CB8C007D047A /* rushiImage.jpg in Resources */,
 				D9F226F31A15C11E007D047A /* Images.xcassets in Resources */,
+				D9F227141A15C26B007D047A /* MyCell.xib in Resources */,
 				D9F226E51A15C11E007D047A /* InfoPlist.strings in Resources */,
 				D9F226EE1A15C11E007D047A /* Main.storyboard in Resources */,
+				D9F227201A15CB8C007D047A /* sagarImage.jpg in Resources */,
+				D9F2271A1A15C3E7007D047A /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,8 +287,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9F227121A15C1E4007D047A /* FirstTableViewController.m in Sources */,
 				D9F226F11A15C11E007D047A /* ViewController.m in Sources */,
 				D9F226EB1A15C11E007D047A /* AppDelegate.m in Sources */,
+				D9F227171A15C283007D047A /* MyCell.m in Sources */,
 				D9F226E71A15C11E007D047A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +496,7 @@
 				D9F2270B1A15C11E007D047A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9F2270C1A15C11E007D047A /* Build configuration list for PBXNativeTarget "CustomTableTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +505,7 @@
 				D9F2270E1A15C11E007D047A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
